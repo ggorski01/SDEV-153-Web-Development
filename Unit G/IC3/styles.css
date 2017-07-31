@@ -1,0 +1,160 @@
+﻿/* 
+   Hotel Natoma style sheet 
+   Filename: styles.css
+
+   Author:   Giovanna Monteiro
+   Date:   02/16/2017       
+   HTML5 and CSS3 Illustrated Unit G, Independent Challenge 3
+ */
+
+/* reset styles */
+html {
+   font-size: 14px;
+}
+article, body, div, footer, header, h1, h2, nav, p, img, figcaption, figure {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	display: block;
+}
+
+/* body and page container */
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+   border-left: 3px solid black;
+   border-right: 3px solid black;
+   position: relative;
+}
+p {
+   font-size: 1.4em;
+}
+
+/* skip navigation link */
+p.skipnavigation a {
+   position: absolute;
+   left: -10000px;
+}
+p.skipnavigation a:focus {
+   left: auto;
+   right: 1em;
+   top: 1em;
+   background-color: white;
+   color: #082008;
+   z-index: 2;
+}
+
+/* header section */
+header {
+   padding: 0.5em;
+   background-color: #082008;
+}
+header h1 img{
+	margin:0 auto;
+	display:block;
+}
+
+
+/* site navigation */
+nav.sitenavigation {
+   padding: 2%;
+   text-align: center;
+   background-color: #93ad78;
+}
+nav.sitenavigation p {
+   margin: 0 1em;
+   display: inline-block;
+}
+nav.sitenavigation a:link {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+nav.sitenavigation a:visited {
+   color: #dddddd;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   text-shadow: 0 0 6px #082008;
+}
+
+/* main content */
+article {
+   padding: 2%;
+   background-color: linen;
+   overflow: auto;
+}
+article h2 {
+   margin-bottom: 0.6em;
+   font-family: "Krona One", Arial, Helvetica, sans-serif;
+   font-size: 1.6em;
+   line-height: 2em;
+   font-weight: 400;
+}
+article h3 {
+   font-family: "Krona One", Arial, Helvetica, sans-serif;
+   font-size: 1.2em;
+   clear: right;
+}
+article figure{
+	max-width: 100%;
+	left: 1em;
+	float: right;
+}
+article figcaption{
+	text-align:center;
+	font-weight: bold;
+}
+article p {
+   margin-left: 2em;
+}
+article p.pullquote {
+   margin: 1em 1em 0.4em;
+   font-size: 2.1em;
+   line-height: 1.4em;
+}
+article p.imagemap{
+max-width: none;
+
+}
+article p.imagemap img{
+	max-width: none;
+	border: 2px solid black;
+	margin: 0 auto;
+}
+
+/* footer section */
+footer {
+   padding: 10px;
+   text-align: center;
+   color: white;
+   background-color: #082008;
+}
+
+/* print styles */
+@media print {
+   article {
+      width: 100%;
+   }
+   article, body, .container, footer {
+      border: 0;
+      color: rgb(0,0,0);
+      background-color: rgb(255,255,255);
+   }
+   body {
+      max-width: 100%;
+   }
+   nav {
+      display: none;
+   }
+}
+@page {
+   margin: 0.75in;
+}

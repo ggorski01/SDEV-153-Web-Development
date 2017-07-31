@@ -1,0 +1,74 @@
+=====
+area 1
+
+shape
+rectangle
+
+coordinates
+18,260,36,279
+
+alt text
+City Hall
+
+link target
+#cityhall
+
+=====
+area 2
+
+shape
+polygon
+
+coordinates
+45,238,96,230,104,297,54,304
+
+alt text
+Civic Center Plaza
+
+link target
+#ccplaza
+
+=====
+area 3
+
+shape
+rectangle
+
+coordinates
+123,229,141,248
+
+alt text
+Asian Art Museum
+
+link target
+#aam
+
+=====
+area 4
+
+shape
+rectangle
+
+coordinates
+164,226,225,239
+
+alt text
+United Nations Plaza
+
+link target
+#unplaza
+
+=====
+area 5
+
+shape
+circle
+
+coordinates
+390,45,21
+
+alt text
+Cable Car Turnaround
+
+link target
+#cablecar

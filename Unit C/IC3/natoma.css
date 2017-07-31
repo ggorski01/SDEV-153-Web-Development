@@ -1,0 +1,26 @@
+/*Natoma Hotel, HTML5 Unit C, Giovanna Monteiro, Independent Challenge 3*/
+	h1{
+		text-align: center;
+	}
+	#contact{
+		text-align: right;
+	}
+	#box{
+		border: 0.25em darkgreen solid;
+		width: 30em;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1em;
+	}
+	#box2{
+		border: 0.27em darkblue solid;
+		width: 27em;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1em;
+	}
+	.maintext{
+		text-align: left;
+		margin-left: auto;
+		margin-right: auto;
+	}

@@ -1,0 +1,75 @@
+﻿/* 
+   Hotel Natoma style sheet 
+   Filename: styles.css
+
+   Author:   Giovanna Monteiro
+   Date:     02/09/2017
+   HTML5 and CSS3 Illustrated Unit D, Independent Challenge 3
+ */
+
+ /* reset styles */
+ 
+ article, body, div, footer, header, h1, h2, p {
+	 margin:0;
+	 border:0;
+	 padding:0;
+ }
+ 
+ 
+/* body and page container */
+.container {
+   background-color: linen;
+   max-width: 800px;
+   margin:0 auto;
+   border-left: 3px solid #000;
+   border-right: 3px solid #000;
+   padding-top: 4em;
+   
+}
+
+/* headings */
+header {
+   text-align: center;
+   color: white;
+   background-color: darkgreen;
+   border-top: 3px solid #000;
+   border-bottom: 3px solid #000;
+   padding: 10px;
+   position: fixed;
+   top: 0px;
+   max-width: 780px;
+   width: 100%;
+   
+}
+
+/* main content */
+article {
+   background-color: white;
+   width: 60%;
+   margin: 0 auto;
+   padding: 15px;
+}
+article h2 {
+   text-align: center;
+}
+
+/* footer section */
+footer {
+   background-color: darkseagreen;
+   text-align: center;
+   border-top: 3px solid #000;
+   border-bottom: 3px solid #000;
+   padding: 10px;
+}
+p.logoleft{
+	position:absolute;
+	color: linen;
+	top: 1em;
+	left: 3em;
+}
+p.logoright{
+	position:absolute;
+	color: linen;
+	top: 1em;
+	right:  3em;
+}
